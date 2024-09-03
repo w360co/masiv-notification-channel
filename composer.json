@@ -1,12 +1,12 @@
 {
-    "name": "w360/masiv-notification-channel",
+    "name": "w360co/masiv-notification-channel",
     "description": "Masiv Notification Channel for laravel.",
     "keywords": ["laravel", "notifications", "masiv"],
     "license": "MIT",
     "authors": [
         {
             "name": "Elbert Tous",
-            "email": "contact@w360.com.co"
+            "email": "contact@w360.co"
         }
     ],
     "require": {
