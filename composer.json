@@ -1,0 +1,48 @@
+{
+    "name": "w360/masiv-notification-channel",
+    "description": "Masiv Notification Channel for laravel.",
+    "keywords": ["laravel", "notifications", "masiv"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Elbert Tous",
+            "email": "contact@w360.com.co"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "illuminate/notifications": "^11.0",
+        "illuminate/support": "^11.0",
+        "w360co/masiv-laravel": "^1.0.1"
+    },
+    "require-dev": {
+        "mockery/mockery": "^1.6.0",
+        "orchestra/testbench": "^9.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "W360\\Masiv\\Notifications\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "W360\\Masiv\\Notifications\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "laravel": {
+            "providers": [
+                "W360\\Masiv\\Notifications\\MasivChannelServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
